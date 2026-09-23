@@ -8,7 +8,7 @@ export const site = {
   tagline: { en: 'Built on stage. Proven on clients.', ar: 'إنجازات على المسرح. نتائج مع المتدربين.' },
 
   // International format, digits only (no "+", spaces or leading zeros).
-  whatsappNumber: '963953291807',
+  whatsappNumber: '963937762872',
 
   instagram: {
     handle: 'ifbb_pro_ali_afaghani',

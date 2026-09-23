@@ -121,6 +121,18 @@
    (:lang() respects nested lang="en" islands like the English name.) */
 :lang(ar) {
   letter-spacing: 0;
+  text-transform: none;
+}
+
+/* Arabic glyphs read smaller than Latin at the same size — lift the tiny labels. */
+.text-\[10px\]:lang(ar) {
+  font-size: 12px;
+}
+.text-\[11px\]:lang(ar) {
+  font-size: 12.5px;
+}
+.text-xs:lang(ar) {
+  font-size: 13px;
 }
 
 .font-display:lang(ar) {

@@ -74,7 +74,7 @@ export default function Hero() {
               <div key={value}>
                 <dt className="sr-only">{pick(label)}</dt>
                 <dd lang="en" className="font-display text-3xl text-gold-300 sm:text-4xl">
-                  {value}
+                  <bdi dir="ltr">{value}</bdi>
                 </dd>
                 <dd className="mt-1 text-[11px] uppercase leading-snug tracking-[0.14em] text-muted">{pick(label)}</dd>
               </div>
