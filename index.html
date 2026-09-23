@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#070605" />
+    <meta
+      name="description"
+      content="Ali Afaghani — IFBB Pro Elite athlete and online coach. Contest prep, physique transformation and personalised training & nutrition programs."
+    />
+    <meta property="og:title" content="Ali Afaghani | IFBB Pro Coaching" />
+    <meta property="og:image" content="/images/hero-bg.jpg" />
+    <link rel="preload" as="image" href="/images/hero-bg.jpg" media="(min-width: 768px)" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Cairo:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>علي الأفغاني | تدريب محترف IFBB</title>
+    <script>
+      // Apply the saved language before first paint (mirrors src/i18n/config.js).
+      try {
+        var lang = localStorage.getItem('lang')
+        if (lang === 'en' || lang === 'ar') {
+          document.documentElement.lang = lang
+          document.documentElement.dir = lang === 'ar' ? 'rtl' : 'ltr'
+        }
+      } catch (e) {}
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
