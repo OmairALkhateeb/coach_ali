@@ -13,7 +13,7 @@ export const ui = {
       openMenu: 'Open menu',
       closeMenu: 'Close menu',
       home: 'home',
-      switchLanguage: 'التبديل إلى العربية',
+      switchLanguage: 'Language',
     },
 
     hero: {
@@ -30,20 +30,32 @@ export const ui = {
 
     about: {
       eyebrow: 'About the coach',
-      title: 'From the stage',
-      highlight: 'to your plan',
+      title: 'From the stage…',
+      highlight: 'to your plan! 🏆',
       paragraphs: [
-        'I’m Ali Afaghani, an IFBB Pro Card Elite athlete in Men’s Physique, training out of T-GYM Barada. I’ve stood on podiums in Lebanon, Jordan and Syria — and I’m now preparing to represent the Syrian national team at the World Championship in Spain.',
-        'Everything I teach, I’ve lived: the discipline, the diet, the peak week. My coaching gives you that same structure — clear, personal, and built to get you results you can see.',
+        'I’m Ali Afaghani, a professional athlete holding the IFBB Elite Pro card in Men’s Physique, and a certified bodybuilding coach. After years of podium finishes and wins at championships in Lebanon, Jordan and Syria, I’m now preparing to represent the Syrian national team at the World Championship in Spain.',
       ],
       imageAlt: 'Ali Afaghani on the podium with trophy and gold medal',
       badgeValue: '1st',
       badgeLabel: 'Men’s Physique +182',
+      whyTitle: 'Why train with me?',
       pillars: [
-        { title: 'Competes at pro level', text: 'Coaching tested on my own body, every season.' },
-        { title: 'Science-based nutrition', text: 'Flexible plans built around real, local food.' },
-        { title: 'Accountability', text: 'Weekly check-ins and direct support on WhatsApp.' },
+        {
+          title: 'Real experience',
+          text: 'Everything I teach you, I’ve lived myself. I don’t just pass on information — I’ve lived every detail of the discipline, the commitment to training and the strict diet, right up to the last minute before stepping on stage.',
+        },
+        {
+          title: 'No mistakes',
+          text: 'I put years of trial, error and learning in your hands, to shorten the road for you so you reach your goal directly and safely.',
+        },
+        {
+          title: 'Guaranteed results',
+          text: 'Together we design a plan that fits your body and your goals, so you get results you can see with your own eyes and feel in your mirror.',
+        },
       ],
+      closing:
+        'If you’re ready to commit and transform your body and your health, join me now and let’s start the journey together!',
+      cta: 'Join me now',
     },
 
     achievements: {
@@ -169,7 +181,7 @@ export const ui = {
       openMenu: 'فتح القائمة',
       closeMenu: 'إغلاق القائمة',
       home: 'الصفحة الرئيسية',
-      switchLanguage: 'Switch to English',
+      switchLanguage: 'اللغة',
     },
 
     hero: {
@@ -186,20 +198,31 @@ export const ui = {
 
     about: {
       eyebrow: 'عن المدرب',
-      title: 'من المسرح',
-      highlight: 'إلى خطتك',
+      title: 'من المسرح..',
+      highlight: 'إلى خطتك! 🏆',
       paragraphs: [
-        'أنا علي الأفغاني، لاعب محترف حاصل على بطاقة IFBB Pro Elite في فئة فيزيك رجال، وأتدرب في T-GYM بردى. وقفت على منصات التتويج في لبنان والأردن وسوريا، وأستعد الآن لتمثيل المنتخب السوري في بطولة العالم بإسبانيا.',
-        'كل ما أعلّمه عشته بنفسي: الانضباط، والنظام الغذائي، وأسبوع الذروة. تدريبي يمنحك نفس الهيكلية — واضحة وشخصية ومصممة لتحقق نتائج تراها بعينك.',
+        'أنا علي الأفغاني، لاعب محترف حاصل على كرت الاحتراف IFBB Elite Pro في فئة الـ Men’s Physique، ومدرب كمال أجسام معتمد. بعد سنوات من منصات التتويج والفوز في بطولات لبنان، والأردن، وسوريا، أستعد الآن لتمثيل المنتخب السوري في بطولة العالم بإسبانيا.',
       ],
       imageAlt: 'علي الأفغاني على منصة التتويج مع الكأس والميدالية الذهبية',
       badgeValue: 'المركز الأول',
       badgeLabel: 'فيزيك رجال +182',
+      whyTitle: 'لماذا تختار التدريب معي؟',
       pillars: [
-        { title: 'ينافس على مستوى المحترفين', text: 'أسلوب تدريب مجرَّب على جسمي في كل موسم.' },
-        { title: 'تغذية مبنية على العلم', text: 'خطط مرنة مبنية على أكل حقيقي ومتوفر.' },
-        { title: 'متابعة والتزام', text: 'متابعة أسبوعية ودعم مباشر عبر واتساب.' },
+        {
+          title: 'خبرة حقيقية',
+          text: 'كل ما أعلّمه لك عشته بنفسي؛ لست مجرد ناقل للمعلومات، بل عشت تفاصيل الانضباط، والالتزام بالتمرين، والالتزام بالنظام الغذائي الصارم حتى آخر دقيقة قبل الصعود على المسرح.',
+        },
+        {
+          title: 'بدون أخطاء',
+          text: 'أضع بين يديك خبرة سنين من التجارب، الأخطاء، والتعلم، لكي أختصر عليك الطريق وتصل لهدفك مباشرة وبأمان.',
+        },
+        {
+          title: 'نتائج مضمونة',
+          text: 'نصمم معاً خطة تناسب طبيعة جسمك وأهدافك، لتصل إلى نتائج تراها بعينك وتلمسها في مرآتك.',
+        },
       ],
+      closing: 'إذا كنت مستعداً للالتزام وتغيير جسمك وصحتك، انضم إليّ الآن ولنبدأ الرحلة معاً!',
+      cta: 'انضم إليّ الآن',
     },
 
     achievements: {
@@ -312,6 +335,173 @@ export const ui = {
         trainingDays: 'أيام التمرين أسبوعياً',
         injuries: 'إصابات / ملاحظات صحية',
         message: 'رسالة',
+      },
+    },
+  },
+  es: {
+    meta: { title: 'Ali Afaghani | Entrenamiento IFBB Pro' },
+
+    nav: {
+      tagline: 'Entrenador IFBB Pro',
+      startNow: 'Empieza ya',
+      openMenu: 'Abrir menú',
+      closeMenu: 'Cerrar menú',
+      home: 'inicio',
+      switchLanguage: 'Idioma',
+    },
+
+    hero: {
+      first: 'Ali',
+      last: 'Afaghani',
+      description:
+        'Entrenamiento de physique de nivel campeón con un atleta IFBB Pro en activo. Entrenamiento, nutrición y preparación para competición — el mismo sistema que me llevó al podio, diseñado para ti.',
+      apply: 'Solicita tu plan',
+      results: 'Ver resultados',
+      scroll: 'Desliza',
+      scrollLabel: 'Ir a sobre mí',
+      imageAlt: 'Ali Afaghani en el gimnasio',
+    },
+
+    about: {
+      eyebrow: 'Sobre el entrenador',
+      title: 'Del escenario…',
+      highlight: '¡a tu plan! 🏆',
+      paragraphs: [
+        'Soy Ali Afaghani, atleta profesional con la tarjeta IFBB Elite Pro en la categoría Men’s Physique y entrenador de culturismo certificado. Tras años de podios y victorias en campeonatos de Líbano, Jordania y Siria, ahora me preparo para representar a la selección siria en el Campeonato del Mundo en España.',
+      ],
+      imageAlt: 'Ali Afaghani en el podio con el trofeo y la medalla de oro',
+      badgeValue: '1.º',
+      badgeLabel: 'Men’s Physique +182',
+      whyTitle: '¿Por qué entrenar conmigo?',
+      pillars: [
+        {
+          title: 'Experiencia real',
+          text: 'Todo lo que te enseño lo he vivido en primera persona. No me limito a transmitir información: he vivido cada detalle de la disciplina, el compromiso con el entrenamiento y la dieta estricta hasta el último minuto antes de subir al escenario.',
+        },
+        {
+          title: 'Sin errores',
+          text: 'Pongo en tus manos años de experiencia, errores y aprendizaje para acortarte el camino y que llegues a tu objetivo de forma directa y segura.',
+        },
+        {
+          title: 'Resultados garantizados',
+          text: 'Juntos diseñamos un plan adaptado a tu cuerpo y a tus objetivos, para que consigas resultados que veas con tus propios ojos y notes en tu espejo.',
+        },
+      ],
+      closing:
+        'Si estás listo para comprometerte y cambiar tu cuerpo y tu salud, únete a mí ahora y ¡empecemos el camino juntos!',
+      cta: 'Únete ahora',
+    },
+
+    achievements: {
+      eyebrow: 'Historial de competición',
+      title: 'Títulos ganados',
+      highlight: 'en el escenario',
+      description: 'Cada medalla demuestra que el método funciona — el mismo método que vas a seguir.',
+      latest: 'Último título',
+      medals: { gold: '1.º', silver: '2.º', bronze: '3.º', pro: 'PRO' },
+    },
+
+    services: {
+      eyebrow: 'Programas de entrenamiento',
+      title: 'Elige tu',
+      highlight: 'camino',
+      description: 'Todos los programas son 100% personalizados y online — entrenes donde entrenes.',
+      popular: 'El más elegido',
+      apply: 'Solicitar este programa',
+    },
+
+    results: {
+      eyebrow: 'Resultados de clientes',
+      title: 'Personas reales.',
+      highlight: 'Cambios reales.',
+      description: 'Desliza para comparar o toca cualquier foto para verla a tamaño completo.',
+      cta: 'Empieza tu transformación',
+      before: 'Antes',
+      after: 'Después',
+      compare: 'Desliza para comparar el antes y el después',
+      view: 'Ver {name} a tamaño completo',
+      close: 'Cerrar',
+    },
+
+    apply: {
+      eyebrow: 'Solicitud de entrenamiento',
+      title: '¿Listo para',
+      highlight: 'subir de nivel?',
+      description:
+        'Las plazas son limitadas para que cada cliente reciba atención real. Cuéntame sobre ti y construyamos tu plan.',
+      steps: [
+        { title: 'Solicita', text: 'Rellena el formulario — te llevará un minuto.' },
+        { title: 'Envía por WhatsApp', text: 'Tus datos se abren en WhatsApp, listos para enviar.' },
+        { title: 'Consulta', text: 'El coach Ali revisa tus objetivos y te responde personalmente.' },
+        { title: 'Empieza tu plan', text: 'Recibe tu programa de entrenamiento y nutrición a medida.' },
+      ],
+      coachedBy: 'Entrenamiento personal con {name}',
+      noTemplates: 'Sin asistentes y sin plantillas.',
+    },
+
+    form: {
+      program: 'Programa',
+      fullName: 'Nombre completo',
+      fullNamePlaceholder: 'Tu nombre',
+      age: 'Edad',
+      gender: 'Sexo',
+      height: 'Altura',
+      weight: 'Peso',
+      cm: 'cm',
+      kg: 'kg',
+      country: 'País / Ciudad',
+      countryPlaceholder: 'Madrid, España',
+      goal: 'Objetivo principal',
+      goalPlaceholder: 'Elige tu objetivo',
+      experience: 'Experiencia entrenando',
+      experiencePlaceholder: 'Elige tu nivel',
+      trainingDays: 'Días que puedes entrenar / semana',
+      injuries: 'Lesiones / notas de salud',
+      injuriesPlaceholder: 'Ninguna',
+      message: '¿Algo más?',
+      messagePlaceholder: 'Cuéntale al coach Ali tu rutina, tu dieta o la competición que tienes en mente…',
+      note: 'Abre WhatsApp con tus datos ya rellenados — no se guarda nada.',
+      submit: 'Enviar solicitud',
+      sentTitle: 'Ya casi está',
+      sentText: 'WhatsApp se ha abierto con tu solicitud lista. Solo pulsa enviar y el coach Ali te responderá.',
+      openAgain: 'Abrir WhatsApp de nuevo',
+      newApplication: 'Nueva solicitud',
+      errors: {
+        fullName: 'Introduce tu nombre completo.',
+        age: 'Introduce una edad entre 14 y 80.',
+        country: '¿Dónde vives?',
+        height: 'Altura en cm (120–230).',
+        weight: 'Peso en kg (35–250).',
+        goal: 'Elige tu objetivo principal.',
+        experience: 'Elige tu nivel de experiencia.',
+        program: 'Elige un programa.',
+      },
+    },
+
+    footer: {
+      description: 'Entrenamiento online, preparación para competición y nutrición para atletas que quieren resultados reales.',
+      explore: 'Explorar',
+      connect: 'Contacto',
+      rights: 'Todos los derechos reservados.',
+      whatsappMessage: 'Hola coach Ali, tengo una pregunta sobre el entrenamiento.',
+    },
+
+    whatsapp: {
+      greeting: 'Hola coach Ali 👋',
+      intro: 'Me gustaría solicitar tu entrenamiento. Estos son mis datos:',
+      labels: {
+        fullName: 'Nombre',
+        age: 'Edad',
+        gender: 'Sexo',
+        country: 'País / Ciudad',
+        height: 'Altura',
+        weight: 'Peso',
+        program: 'Programa',
+        goal: 'Objetivo principal',
+        experience: 'Experiencia',
+        trainingDays: 'Días de entrenamiento / semana',
+        injuries: 'Lesiones / notas de salud',
+        message: 'Mensaje',
       },
     },
   },

@@ -23,7 +23,7 @@
       // Apply the saved language before first paint (mirrors src/i18n/config.js).
       try {
         var lang = localStorage.getItem('lang')
-        if (lang === 'en' || lang === 'ar') {
+        if (lang === 'en' || lang === 'ar' || lang === 'es') {
           document.documentElement.lang = lang
           document.documentElement.dir = lang === 'ar' ? 'rtl' : 'ltr'
         }

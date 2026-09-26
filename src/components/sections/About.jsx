@@ -1,9 +1,10 @@
 import { useReveal } from '../../hooks/useReveal'
 import { useLanguage } from '../../i18n/useLanguage'
+import Button from '../ui/Button'
 import Icon from '../ui/Icon'
 import SectionHeading from '../ui/SectionHeading'
 
-const pillarIcons = ['trophy', 'leaf', 'flame']
+const pillarIcons = ['trophy', 'check', 'flame']
 
 export default function About() {
   const imageRef = useReveal()
@@ -43,15 +44,25 @@ export default function About() {
             ))}
           </div>
 
-          <ul className="mt-10 grid gap-4 sm:grid-cols-3">
+          <h3 className="mt-10 text-lg font-semibold text-bone sm:text-xl">{t('about.whyTitle')}</h3>
+          <ul className="mt-5 space-y-4">
             {t('about.pillars').map(({ title, text }, i) => (
-              <li key={title} className="rounded-2xl border border-ink-700 bg-ink-900/60 p-5">
-                <Icon name={pillarIcons[i]} className="size-6 text-gold-400" />
-                <p className="mt-3 text-sm font-semibold text-bone">{title}</p>
-                <p className="mt-1 text-xs leading-relaxed text-muted">{text}</p>
+              <li key={title} className="flex gap-4 rounded-2xl border border-ink-700 bg-ink-900/60 p-5">
+                <span className="grid size-11 shrink-0 place-items-center rounded-xl bg-gold-400/10">
+                  <Icon name={pillarIcons[i]} className="size-6 text-gold-400" />
+                </span>
+                <div>
+                  <p className="font-semibold text-bone">{title}</p>
+                  <p className="mt-1 text-sm leading-relaxed text-muted">{text}</p>
+                </div>
               </li>
             ))}
           </ul>
+
+          <p className="mt-8 text-base font-medium leading-relaxed text-bone/90 sm:text-lg">{t('about.closing')}</p>
+          <Button href="#apply" icon="arrow" className="mt-6">
+            {t('about.cta')}
+          </Button>
         </div>
       </div>
     </section>

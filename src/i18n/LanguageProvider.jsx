@@ -34,15 +34,10 @@ export default function LanguageProvider({ children }) {
     [lang],
   )
 
-  /** Pick the active language from a `{ en, ar }` data value. */
+  /** Pick the active language from a `{ en, ar, es }` data value. */
   const pick = useCallback((value) => localize(value, lang), [lang])
 
-  const toggleLanguage = useCallback(() => setLang((current) => (current === 'ar' ? 'en' : 'ar')), [])
-
-  const value = useMemo(
-    () => ({ lang, dir, setLang, toggleLanguage, t, pick }),
-    [lang, dir, toggleLanguage, t, pick],
-  )
+  const value = useMemo(() => ({ lang, dir, setLang, t, pick }), [lang, dir, t, pick])
 
   return <LanguageContext.Provider value={value}>{children}</LanguageContext.Provider>
 }

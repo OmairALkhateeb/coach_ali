@@ -6,6 +6,7 @@
 export const LANGUAGES = {
   ar: { label: 'العربية', short: 'ع', dir: 'rtl' },
   en: { label: 'English', short: 'EN', dir: 'ltr' },
+  es: { label: 'Español', short: 'ES', dir: 'ltr' },
 }
 
 export const DEFAULT_LANGUAGE = 'ar'
@@ -22,7 +23,7 @@ export function getInitialLanguage() {
 }
 
 /**
- * Resolves a localized value: `{ en, ar }` objects return the active language
+ * Resolves a localized value: `{ en, ar, es }` objects return the active language
  * (falling back to English); plain strings / numbers are returned as-is.
  */
 export function localize(value, lang) {
